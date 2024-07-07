@@ -1,0 +1,27 @@
+.service {
+  margin: 4rem 4rem;
+}
+.sections {
+  margin: 4rem 5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sections div {
+  display: flex;
+  flex-direction: column;
+  color: rgb(227, 87, 227);
+}
+@media screen and (max-width: 850px) {
+  .services {
+    margin: 2rem 1rem;
+  }
+  .sections {
+    margin: 2rem 1rem;
+    gap: 29px;
+  }
+}
